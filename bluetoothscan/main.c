@@ -142,7 +142,7 @@ int main(){
 		}
 
 		//parameters required to send to Node-RED
-		char *hostname = "10.255.21.45";
+		char *hostname = "localhost";
 		char *page = "/new_discovered";
 		int port = 1880;
 
