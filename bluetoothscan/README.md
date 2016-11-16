@@ -6,7 +6,7 @@
 <ul>
 <li> Ubuntu 16.04 LTS or lower </li>
 <li> Bluetooth Adapter </li>
-<li> Node-RED development environment running on http://localhost:1880</li>
+<li> Node-RED development environment running on <i>http://localhost:1880</i></li>
 </ul>
 
 <h4> How the Application Works</h4>
@@ -17,11 +17,11 @@
 <li> The registry of all devices found in the last half hour, as well as all new discovered devices upon each completed search, is sent to Node-RED via a HTTP POST in JSON format. This provides some flexibility for further development</li>
 <li> <b> What you need to know about Node-RED?</b>
      <ul>
-        <li> The application requires Node-RED to be installed and running on the following URL: http://localhost:1880 </li>
+        <li> The application requires Node-RED to be installed and running on the following URL: <i>http://localhost:1880</i> </li>
         <li> The JSON message sent to Node-RED containing all the discovered Bluetooth devices is sent via the following URL:
-        http://localhost:1880/all_discovered </li>
+        <i>http://localhost:1880/all_discovered</i> </li>
         <li> The JSON message sent to Node-RED containing new discovered Bluetooth devices is sent via the following URL:
-        http://localhost:1880/new_discovered </li>  
+        <i>http://localhost:1880/new_discovered </i></li>  
      </ul>
 </li>
 </ul>
