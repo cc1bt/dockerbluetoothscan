@@ -13,7 +13,7 @@
 <ul>
 <li> Each search for devices lasts approximately 1 minute</li>
 <li> The MAC Address and name (if available) of the Bluetooth device found is added to a registry of devices found within the last 1 hour</li>
-<li> Every half hour the the registry of devices is cleared </li>
+<li> Every half hour the registry of devices is cleared </li>
 <li> The registry of all devices found in the last half hour, as well as all new discovered devices upon each completed search, is sent to Node-RED via a HTTP POST in JSON format. This provides some flexibility for further development</li>
 <li> <b> What you need to know about Node-RED?</b>
      <ul>
